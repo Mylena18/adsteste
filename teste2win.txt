@@ -1,1 +1,8 @@
-arquivo criado na nuvem
+PASSO A PASSO DE COMO BAIXAR UM ARQUIVO DA NUVEM PARA O REPOSITÓRIO LOCAL NO WINDOWS.
+
+
+- Crie um arquivo dentro do seu diretório direto no git hub, e dê um nome a ele.
+- Escreva algo nele
+- Depois abra o prompt de comando e abra apasta do seu repositório.
+- Depois execute [git pull origin master]
+- para ver se seu arquivo esta na pasta execute o comando [dir]
