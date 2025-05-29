@@ -1,1 +1,18 @@
-oiii
+PASSO A PASSO DE COMO SUBIR UM ARQUIVO PARA O GITHUB NO LINUX.
+
+- Primeiro é necessário que você verifique se já tem o git instalado no seu pc.
+para isso utilize o comando [git --version]
+
+-Depois de fazer a instalação, ultilize o comando [ls], para lstar os arquivos e pastas no diretório atual.
+- Utilize o comando [cd Documentos] para entrar na pasta Documentos, ou pasta disponivel no seu diretório.
+- Em seguida aplique o comando [mkdir testeRepositorio] isso cria uma nova pasta dentro do seu diretório atual.
+- Depois com o camndo [xed teste.txt] você cria um arquivo dentro do seu diretório atual.
+- Em seguida, aplique o comando [git init], ele vai iniciar um novo repositório GIT em um diretório, ele transforma uma pasta comum em um repositório GIT.
+- Digite o comando [git status] para verificar se seu arquivo está sendo monitorado, se não estiver digite [git add teste.txt]
+- Em seguida digite, [git commit -a "innitial commit"] aqui você está salvando seu arquivo no repositório com a mensagem "innitial commit"
+- Depois faca a configuração do seu repositório, utilize o comando [git config --list].
+- Em seguida, insira os comandos [git config --global user.name "seunome"\n git config --global user.email "seuemail@gmail.com"\n git config --list].
+- Entre no seu arquivon[git commit -a "innitial commit"]
+- Adicione no seu repositório remoto o seu arquivo local com o comando [git remote add origin https://.......link do seu arquivo]
+- Depois, [git push -u origin master] copia as mudancas do seu repositório local para o remoto.
+- depois insira o nome do seu perfil git , e o token.
